@@ -83,7 +83,7 @@ const App: React.FC = () => {
         <button type="submit">Search</button>
       </form>      
   
-      {images.length > 0 ? (              //if image.length i.e array contains image from .json it will show here
+      {images.length > 0 ? (              //if image.length i.e array contains image from .json, it will show here
         <div className="image-grid">
           {images.map((image) => (
             <div key={image.id} className="image-item">
